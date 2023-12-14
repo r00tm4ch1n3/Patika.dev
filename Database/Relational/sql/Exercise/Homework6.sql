@@ -1,6 +1,6 @@
 -- ODEV6
 --1)
--- select SUM(rental_rate) as ortalama from film;
+-- select AVG(rental_rate) as ortalama from film;
 --2)
 -- select count(title) from film
 -- where title like 'C%'
