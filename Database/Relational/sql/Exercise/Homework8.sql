@@ -1,0 +1,123 @@
+--1-
+-- CREATE TABLE EMPLOYEE(
+-- 	ID INTEGER,
+-- 	NAME VARCHAR(50),
+-- 	BIRTHDAY DATE,
+-- 	EMAIL VARCHAR(100)
+-- );
+
+--2--
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (83, 'Moore', '1983-02-18');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (2, 'Cristen', '1990-01-18');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (79, 'Yurik', '1987-05-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (95, 'Jeanine', '1903-06-05');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (9, 'Wendy', '1977-01-07');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (8, 'Chantal', '2014-08-29');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (15, 'Moises', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (5, 'Kore', '2007-06-05');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (97, 'Tessy', '1911-05-24');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (84, 'Hansiain', '1916-06-20');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (23, 'Annabelle', '2017-05-05');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (62, 'Missie', '1973-05-07');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (11, 'Dexter', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (17, 'Olvan', '2021-08-05');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (90, 'Randy', '1967-08-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (44, 'Gabriela', '1982-03-27');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (50, 'Sherry', '1944-04-16');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (61, 'Waring', '1965-11-13');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (28, 'Hadleigh', '1958-12-20');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (36, 'Susette', '1943-07-09');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (81, 'Katherine', '2018-05-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (92, 'Bentley', '1950-07-28');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (11, 'Berri', '1962-07-09');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (16, 'Miner', '1931-09-11');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (83, 'Fremont', '2005-06-30');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (89, 'Travis', '1960-04-10');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (24, 'Petronella', '1931-09-07');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (35, 'Monte', '1923-08-29');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (82, 'Malcolm', '1997-02-12');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (90, 'Ines', '1946-10-21');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (42, 'Cyrillus', '1925-12-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (27, 'Arleta', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (55, 'Barbaraanne', '1984-02-19');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (73, 'Tobye', '1974-03-12');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (54, 'Fowler', '2021-09-27');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (100, 'Noni', '1951-10-27');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (78, 'Mahmud', '1974-12-12');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (29, 'Roi', '1990-02-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (61, 'Aube', '1904-08-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (53, 'Sibyl', '2002-11-20');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (84, 'Nichol', '1928-01-02');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (87, 'Albertine', '1976-11-17');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (84, 'Micheal', '1994-05-04');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (22, 'Eugen', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (80, 'Matias', '1949-06-14');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (43, 'Pietro', '2005-01-14');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (50, 'Pavla', '2003-02-17');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (86, 'Carmella', '2020-06-13');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (86, 'Howie', '1941-01-23');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (94, 'Hailey', '2009-02-27');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (77, 'Constantia', '1959-10-19');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (3, 'Kyla', '1912-12-02');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (21, 'Athene', '1932-12-04');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (81, 'Dorry', '1917-10-22');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (68, 'Abdul', '1905-08-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (90, 'Eulalie', '1941-05-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (7, 'Di', '1967-03-27');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (58, 'Vere', '1978-08-23');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (70, 'Lana', '2012-11-28');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (68, 'Rodina', '1983-12-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (17, 'Hervey', '1958-01-07');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (66, 'Park', '1995-01-10');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (94, 'My', '1933-03-28');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (83, 'Nita', '2001-01-10');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (87, 'Donnajean', '1953-08-24');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (10, 'Augusto', '2008-08-12');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (18, 'Rooney', '1941-10-25');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (93, 'Eugine', '1961-04-16');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (60, 'Rozanne', '2012-02-01');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (58, 'Emmy', '2004-02-11');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (49, 'Rahal', '1964-05-04');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (27, 'Karole', '1921-02-28');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (69, 'Maribelle', '2019-06-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (56, 'Sindee', '2001-01-11');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (32, 'Rod', '1994-09-18');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (85, 'Gun', '1979-08-23');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (79, 'Augy', '1920-10-10');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (54, 'Kristal', '1936-04-30');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (55, 'Pietra', '1936-02-02');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (100, 'Tisha', '1958-10-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (68, 'Felicia', '1998-04-14');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (73, 'Ann-marie', '2007-07-05');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (28, 'Lorrin', '1995-01-08');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (33, 'Ric', '1927-02-12');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (14, 'Iseabal', '1973-07-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (27, 'Caroline', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (93, 'Elias', '1938-09-29');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (59, 'Hasheem', '2007-07-03');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (53, 'Florrie', null);
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (89, 'Simona', '1944-02-10');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (54, 'Rhianna', '2022-09-03');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (44, 'Annalee', '1950-06-15');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (27, 'Hobie', '1991-03-31');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (66, 'Hillary', '1935-09-13');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (33, 'Jobi', '1985-05-31');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (7, 'Madlin', '1957-09-21');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (78, 'Brita', '2014-11-04');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (51, 'Ginnie', '1967-10-18');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (42, 'Wally', '2020-04-22');
+-- insert into EMPLOYEE (ID, NAME, BIRTHDAY) values (14, 'Poppy', '1906-09-05');
+
+--3-
+
+-- SELECT * FROM EMPLOYEE;
+
+-- UPDATE EMPLOYEE
+-- SET NAME ='UPDATED'
+-- WHERE ID BETWEEN 8 AND 12
+-- RETURNING *;
+
+--4-
+-- DELETE FROM EMPLOYEE
+-- WHERE NAME='UPDATED'
+-- RETURNING *;
